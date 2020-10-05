@@ -20,11 +20,14 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Column="1" Grid.Row="1">
-            <TextBlock FontStyle="Italic" FontSize="48" FontFamily="HGMaruGothicMPRO">
-                EasyOCR
+            <TextBlock Margin="20" FontStyle="Italic" FontSize="48" FontFamily="MV Boli">
+                EasyOCR10
             </TextBlock>
-            <TextBlock Margin="20" FontStyle="Italic" FontSize="16" FontFamily="MV Boli">
-                Easy OCR Application Powered By Windows 10 OCR API. 
+            <TextBlock FontStyle="Italic" FontSize="16" FontFamily="MV Boli">
+                EasyOCR10 Application for many documents with same layout.
+            </TextBlock>
+            <TextBlock FontStyle="Italic" FontSize="16" FontFamily="MV Boli" HorizontalAlignment="Right">
+                10 means for Windows 10.
             </TextBlock>
             <Button HorizontalAlignment="Center" Width="200" Height="80" Content="Start" FontSize="24"
                     Click="cmdStart_Click"/>

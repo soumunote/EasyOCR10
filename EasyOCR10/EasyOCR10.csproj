@@ -126,6 +126,7 @@
     <Compile Include="ScanningDialog.xaml.cs">
       <DependentUpon>ScanningDialog.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SoftwareBitmapExtention.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
